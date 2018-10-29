@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rolodex</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700" rel="stylesheet">
+	<!-- Vendor js -->
+	<script type="text/javascript" src="styles/vendor/js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="styles/vendor/js/tether-1.3.3.min.js"></script>
+	<script type="text/javascript" src="styles/vendor/js/bootstrap-v4-anpha6.min.js"></script>
+	<script type="text/javascript" src="styles/vendor/js/progressbar.min.js"></script>
+	<!-- Custom js -->
+	<script type="text/javascript" src="styles/custom/v1/js/main.js"></script>
+
+	<!-- Vendor css -->
+	<link rel="stylesheet" type="text/css" href="styles/vendor/css/bootstrap-v4-anpha6.min.css">
+	<link rel="stylesheet" type="text/css" href="styles/vendor/css/font-awesome-4.7.0.min.css">
+	<!-- Custom css -->
+	<link rel="stylesheet" type="text/css" href="styles/custom/v1/css/main.css">
+	<link rel="stylesheet" type="text/css" href="styles/custom/v1/css/main-media.css">
+</head>
+<body>
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="header-inner w-100">
+					<nav class="navbar navbar-toggleable-sm navbar-light bg-faded">
+						<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarHeaderLink" aria-controls="navbarHeaderLink" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+
+						<a class="navbar-brand" id="logo" href="#"><img src="styles/custom/v1/images/Placeholder.jpg"></a>
+
+						<div class="collapse navbar-collapse" id="navbarHeaderLink">
+							<ul class="navbar-nav ml-auto">
+								<li class="nav-item">
+									<a class="nav-link linkScroll" data-target="sectionAbout" href="#"><span>about</span></a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link linkScroll" data-target="sectionHowItWork" href="#"><span>our clients</span></a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-link linkScroll" data-target="sectionTeam" href="#"><span>the team</span></a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div id="headerFixed" section="1">
+		<div class="container">
+			<div class="row">
+				<div class="fixedHeaderContent w-100 clearfix">
+					<a href="#" id="fixedLogo" class="linkScroll" data-target="header">
+						<img src="styles/custom/v1/images/v_drk.svg">
+						<img class="imgLogoWhite" src="styles/custom/v1/images/logo_v_white.svg">
+					</a>
+					<button data-target="getInTouchForm" class="btnNormal btnGetInTouch linkScroll">GET IN TOUCH</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<aside>
+		<a class="linkScroll" data-target="sectionAbout" href="#">about</a>
+		<a class="linkScroll" data-target="sectionHowItWork" href="#">our clients</a>
+		<a class="linkScroll" data-target="sectionTeam" href="#">the team</a>
+	</aside>
+
+	<div id="pageDown" data-section="1"></div>
+
+	<!-- <div id="media">
+		<div class="wrapMedia">
+			<div class="media media1"></div>
+			<div class="media media2"></div>
+			<div class="media media3"></div>
+		</div>
+	</div> -->
+
+	<div id="carouselVideo" class="bannerSlide">
+		<!-- <ol class="carousel-indicators">
+			<li data-slide-to="0" class="active"></li>
+			<li data-slide-to="1"></li>
+			<li data-slide-to="2"></li>
+			<li data-slide-to="3"></li>
+		</ol> -->
+		<div class="carousel-inner">
+			<div class="carousel-item" slide-id="0" style="opacity: 1; z-index: 2;">
+				<video src="styles/custom/v1/videos/Bubbles.mp4" autoplay muted loop></video>
+				<div class="carouselCaption">
+					<h1>We Solve Problems.</h1>
+					<!-- <h2></h2> -->
+					<button class="btn btn-normal btn-primary btn-lg btnBlue btnNormal linkScroll" data-target="getInTouchForm">GET IN TOUCH</button>
+				</div>
+			</div>
+			<!-- <div class="carousel-item " slide-id="1" style="opacity: 0;">
+				<video src="styles/custom/v1/videos/demo.mp4"></video>
+				<div class="carouselCaption">
+					<h1>YOUR CONSUMER IS YOUR NEW CREATIVE</h1>
+					<h2>Share the videos of your audience</h2>
+					<button class="btn btn-normal btn-primary btn-lg btnBlue btnNormal linkScroll" data-target="getInTouchForm">GET IN TOUCH</button>
+				</div>
+			</div>
+			<div class="carousel-item" slide-id="2" style="opacity: 0;">
+				<video src="styles/custom/v1/videos/Heymarket.mp4"></video>
+				<div class="carouselCaption">
+					<h1>YOUR CONSUMER IS YOUR NEW CREATIVE</h1>
+					<h2>Share the videos of your audience</h2>
+					<button class="btn btn-normal btn-primary btn-lg btnBlue btnNormal linkScroll" data-target="getInTouchForm">GET IN TOUCH</button>
+				</div>
+			</div>
+			<div class="carousel-item" slide-id="3" style="opacity: 0;">
+				<video src="styles/custom/v1/videos/demo.mp4"></video>
+				<div class="carouselCaption">
+					<h1>YOUR CONSUMER IS YOUR NEW CREATIVE</h1>
+					<h2>Share the videos of your audience</h2>
+					<button class="btn btn-normal btn-primary btn-lg btnBlue btnNormal linkScroll" data-target="getInTouchForm">GET IN TOUCH</button>
+				</div>
+			</div> -->
+		</div>
+	</div>
+
+	<div id="sectionAbout" class="sectionAbout" section="2">
+		<div class="container">
+			<div class="row">
+				<div class="aboutInner">
+					<div class="aboutPart aboutPower">
+						<h2 class="textTitle">Who We Are</h2>
+						<p class="textIntro">We solve problems and we connect the dots. We've done it for big evil corporations, and for our own businesses. We wanted to start something that let us do what we enjoy, and to do it for people and companies we believe in.</p>
+					</div>
+					<div class="aboutPart aboutStatistic">
+						<div class="statistic">
+							<div class="statisticLeft">
+								<div id="percent_89" style="position: absolute"></div>
+								<h1>89%</h1>
+								<p>Of Australians are liars</p>
+							</div>
+							<div class="statisticRight">
+								<div id="percent_76" style="position: absolute"></div>
+								<h1>76%</h1>
+								<p>of 25 and 34 year olds listened to a dog bark in the last week</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="sectionHowItWork" class="sectionHowItWork" section="3">
+		<div class="container">
+			<div class="row">
+				<!--<div class="howItWorkInner">
+					<div class="howItWork clearfix">
+						<div class="w-50 sectionText">
+							<h2 class="textTitle">Gilbert + Tobin</h2>
+							<p>Sydney based law firm</p>
+						</div>
+						<div class="w-50 sectionImg">
+							<img src="styles/custom/v1/images/Gilbert+Tobin.png">
+						</div>
+					</div>
+					<div class="howItWork clearfix">
+						<div class="w-50 sectionImg">
+							<img src="styles/custom/v1/images/hsbc-logo.png">
+						</div>
+						<div class="w-50 sectionText sectionTextRight">
+							<h2 class="textTitle">HSBC Bank</h2>
+							<p>Big dog in the banking scene</p>
+						</div>
+					</div>
+					<div class="howItWork clearfix">
+						<div class="w-50 sectionText">
+							<h2 class="textTitle">Boost Juice</h2>
+							<p>A branded podcast about smoothies is always a good idea.</p>
+						</div>
+						<div class="w-50 sectionImg">
+							<img src="styles/custom/v1/images/Boost-Juice-Logo.png">
+						</div>-->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="sectionTeam" class="sectionTeam" section="4">
+		<div class="container">
+			<div class="row">
+				<!--<div class="teamInner">
+					<div class="teamGroup clearfix">
+						<h2 class="textTitle">THE TEAM</h2>
+						<div class="teamMember">
+							<img src="styles/custom/v1/images/Dan.jpg">
+							<h4>Dan Remy</h4>
+							<h4>Founder</h4>
+						</div>
+						<div class="teamMember">
+							<img src="styles/custom/v1/images/Hazel.jpg">
+							<h4>Alexander Hazelbrook</h4>
+							<h4>Founder</h4>
+						</div>
+					</div>
+					<div class="teamContent">
+						<div class="teamText">
+							<h2 class="textTitle">OUR CULTURE</h2>
+							<p>We can write something here about what great friends we are, and how we hope to make the world a better place.</p>
+						</div>-->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="getInTouchForm" class="contactContainer" section="5">
+		<div class="container">
+			<div class="row">
+				<div class="contactInner w-100">
+					<h3>GET IN TOUCH</h3>
+					<form name="contactForm">
+						<div class="form-group formGroupCustom">
+							<input id="name" type="text" class="form-control" name="lastName" placeholder="Your name">
+							<input id="email" type="text" class="form-control" name="emailAddress" placeholder="Your email address">
+							<input id="phone" type="text" class="form-control" name="phone" placeholder="Your Phone Number">
+						</div>
+						<div class="form-group formGroupCustom">
+							<select id="interest" class="form-control" name="area">
+								<option value="" disabled selected>Reason For Contact?</option>
+								<option value="Demo">Booking</option>
+								<option value="Partnership">Friendship</option>
+								<option value="Contact">Contact</option>
+								<option value="News">Partnership</option>
+								<option value="Other">Other</option>
+							</select>
+						</div>
+						<button id="btn-getInTouchForm" class="btn btn-normal btn-lg btnSubmitGetInTouch">Send Enquiry</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="footerInner w-100">
+					<p>&copy; Rolodex 2018 - All rights reserved</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
