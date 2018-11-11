@@ -147,7 +147,7 @@ function specifySection() {
 	var howItWork_top  = $('#sectionHowItWork').offset().top - top_space;
 	var team_top       = $('#sectionTeam').offset().top - top_space;
 	var getInTouch_top = $('#getInTouchForm').offset().top - top_space;
-	var percent_top	   = $('#percent_89').offset().top;
+	// var percent_top	   = $('#percent_89').offset().top;
 
 	$('aside a').removeClass('active').removeClass('active-white').removeClass('active-blue');
 	$('body').removeClass("bg-color-black bg-color-gray bg-color-pink")
@@ -175,12 +175,12 @@ function specifySection() {
 
 		//************************************************************/
 		//Percents animation when shown
-		var distance_percent_top = percent_top - window_top
+		// var distance_percent_top = percent_top - window_top
 
-		if( distance_percent_top >= - $('#percent_89').height() * 0.3
-		 && distance_percent_top < window.innerHeight * .7){
-			  animatePercent()
-		 }
+		// if( distance_percent_top >= - $('#percent_89').height() * 0.3
+		//  && distance_percent_top < window.innerHeight * .7){
+		// 	  animatePercent()
+		//  }
 		 //************************************************************/
 
 		$('aside a[data-target="sectionAbout"]').addClass('active-white');
